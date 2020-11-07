@@ -1,6 +1,6 @@
 # dtabs
 
-A new Flutter package project.
+dynamic tabs creation library.
 
 <img src="https://raw.githubusercontent.com/himanshu64/dtabs/main/screenshots/example.gif" alt="dtabs" width="250" />
 
