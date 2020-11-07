@@ -2,6 +2,6 @@
 
 - TODO: Describe initial release.
 
-## [0.0.] - 07/11/2020
+## [0.0.2] - 07/11/2020
 
 - minor fix

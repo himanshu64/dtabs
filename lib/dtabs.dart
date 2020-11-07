@@ -29,7 +29,7 @@ class _DTabsState extends State<DTabs> with TickerProviderStateMixin {
   @override
   void initState() {
     _tabController = widget.tabController;
-    _tabs = getTabs(widget.tabList.length);
+    _tabs = getTabs(widget.tabList.length ?? 0);
     _tabController = getTabController();
     super.initState();
   }
@@ -54,7 +54,6 @@ class _DTabsState extends State<DTabs> with TickerProviderStateMixin {
   }
 
   Widget getWidget(int widgetNumber) {
-    print("${widget.tabList[widgetNumber]}");
     return Center(child: Text("${widget.tabList[widgetNumber]}"));
   }
 
